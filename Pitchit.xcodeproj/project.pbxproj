@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBFA7F31CE2E93000A7C7FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFA7F21CE2E93000A7C7FE /* AppDelegate.swift */; };
+		6DBFA7F51CE2E93000A7C7FE /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFA7F41CE2E93000A7C7FE /* RecordSoundsViewController.swift */; };
+		6DBFA7F81CE2E93000A7C7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBFA7F61CE2E93000A7C7FE /* Main.storyboard */; };
+		6DBFA7FA1CE2E93000A7C7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBFA7F91CE2E93000A7C7FE /* Assets.xcassets */; };
+		6DBFA7FD1CE2E93000A7C7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBFA7FB1CE2E93000A7C7FE /* LaunchScreen.storyboard */; };
+		6DBFA8081CE2E93000A7C7FE /* PitchitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFA8071CE2E93000A7C7FE /* PitchitTests.swift */; };
+		6DBFA8131CE2E93000A7C7FE /* PitchitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFA8121CE2E93000A7C7FE /* PitchitUITests.swift */; };
+		6DBFA8211CE507C000A7C7FE /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBFA8201CE507C000A7C7FE /* PlaySoundsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DBFA8041CE2E93000A7C7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBFA7E71CE2E93000A7C7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBFA7EE1CE2E93000A7C7FE;
+			remoteInfo = Pitchit;
+		};
+		6DBFA80F1CE2E93000A7C7FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBFA7E71CE2E93000A7C7FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBFA7EE1CE2E93000A7C7FE;
+			remoteInfo = Pitchit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DBFA7EF1CE2E93000A7C7FE /* Pitchit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pitchit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBFA7F21CE2E93000A7C7FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DBFA7F41CE2E93000A7C7FE /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		6DBFA7F71CE2E93000A7C7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DBFA7F91CE2E93000A7C7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBFA7FC1CE2E93000A7C7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DBFA7FE1CE2E93000A7C7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBFA8031CE2E93000A7C7FE /* PitchitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBFA8071CE2E93000A7C7FE /* PitchitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchitTests.swift; sourceTree = "<group>"; };
+		6DBFA8091CE2E93000A7C7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBFA80E1CE2E93000A7C7FE /* PitchitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBFA8121CE2E93000A7C7FE /* PitchitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchitUITests.swift; sourceTree = "<group>"; };
+		6DBFA8141CE2E93000A7C7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBFA8201CE507C000A7C7FE /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBFA7EC1CE2E93000A7C7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBFA8001CE2E93000A7C7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBFA80B1CE2E93000A7C7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBFA7E61CE2E93000A7C7FE = {
+			isa = PBXGroup;
+			children = (
+				6DBFA7F11CE2E93000A7C7FE /* Pitchit */,
+				6DBFA8061CE2E93000A7C7FE /* PitchitTests */,
+				6DBFA8111CE2E93000A7C7FE /* PitchitUITests */,
+				6DBFA7F01CE2E93000A7C7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBFA7F01CE2E93000A7C7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBFA7EF1CE2E93000A7C7FE /* Pitchit.app */,
+				6DBFA8031CE2E93000A7C7FE /* PitchitTests.xctest */,
+				6DBFA80E1CE2E93000A7C7FE /* PitchitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBFA7F11CE2E93000A7C7FE /* Pitchit */ = {
+			isa = PBXGroup;
+			children = (
+				6DBFA7F21CE2E93000A7C7FE /* AppDelegate.swift */,
+				6DBFA7F41CE2E93000A7C7FE /* RecordSoundsViewController.swift */,
+				6DBFA8201CE507C000A7C7FE /* PlaySoundsViewController.swift */,
+				6DBFA7F61CE2E93000A7C7FE /* Main.storyboard */,
+				6DBFA7F91CE2E93000A7C7FE /* Assets.xcassets */,
+				6DBFA7FB1CE2E93000A7C7FE /* LaunchScreen.storyboard */,
+				6DBFA7FE1CE2E93000A7C7FE /* Info.plist */,
+			);
+			path = Pitchit;
+			sourceTree = "<group>";
+		};
+		6DBFA8061CE2E93000A7C7FE /* PitchitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBFA8071CE2E93000A7C7FE /* PitchitTests.swift */,
+				6DBFA8091CE2E93000A7C7FE /* Info.plist */,
+			);
+			path = PitchitTests;
+			sourceTree = "<group>";
+		};
+		6DBFA8111CE2E93000A7C7FE /* PitchitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBFA8121CE2E93000A7C7FE /* PitchitUITests.swift */,
+				6DBFA8141CE2E93000A7C7FE /* Info.plist */,
+			);
+			path = PitchitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBFA7EE1CE2E93000A7C7FE /* Pitchit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBFA8171CE2E93000A7C7FE /* Build configuration list for PBXNativeTarget "Pitchit" */;
+			buildPhases = (
+				6DBFA7EB1CE2E93000A7C7FE /* Sources */,
+				6DBFA7EC1CE2E93000A7C7FE /* Frameworks */,
+				6DBFA7ED1CE2E93000A7C7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pitchit;
+			productName = Pitchit;
+			productReference = 6DBFA7EF1CE2E93000A7C7FE /* Pitchit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DBFA8021CE2E93000A7C7FE /* PitchitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBFA81A1CE2E93000A7C7FE /* Build configuration list for PBXNativeTarget "PitchitTests" */;
+			buildPhases = (
+				6DBFA7FF1CE2E93000A7C7FE /* Sources */,
+				6DBFA8001CE2E93000A7C7FE /* Frameworks */,
+				6DBFA8011CE2E93000A7C7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBFA8051CE2E93000A7C7FE /* PBXTargetDependency */,
+			);
+			name = PitchitTests;
+			productName = PitchitTests;
+			productReference = 6DBFA8031CE2E93000A7C7FE /* PitchitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DBFA80D1CE2E93000A7C7FE /* PitchitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBFA81D1CE2E93000A7C7FE /* Build configuration list for PBXNativeTarget "PitchitUITests" */;
+			buildPhases = (
+				6DBFA80A1CE2E93000A7C7FE /* Sources */,
+				6DBFA80B1CE2E93000A7C7FE /* Frameworks */,
+				6DBFA80C1CE2E93000A7C7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBFA8101CE2E93000A7C7FE /* PBXTargetDependency */,
+			);
+			name = PitchitUITests;
+			productName = PitchitUITests;
+			productReference = 6DBFA80E1CE2E93000A7C7FE /* PitchitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBFA7E71CE2E93000A7C7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "冯明妍";
+				TargetAttributes = {
+					6DBFA7EE1CE2E93000A7C7FE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6DBFA8021CE2E93000A7C7FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6DBFA7EE1CE2E93000A7C7FE;
+					};
+					6DBFA80D1CE2E93000A7C7FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6DBFA7EE1CE2E93000A7C7FE;
+					};
+				};
+			};
+			buildConfigurationList = 6DBFA7EA1CE2E93000A7C7FE /* Build configuration list for PBXProject "Pitchit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBFA7E61CE2E93000A7C7FE;
+			productRefGroup = 6DBFA7F01CE2E93000A7C7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBFA7EE1CE2E93000A7C7FE /* Pitchit */,
+				6DBFA8021CE2E93000A7C7FE /* PitchitTests */,
+				6DBFA80D1CE2E93000A7C7FE /* PitchitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBFA7ED1CE2E93000A7C7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBFA7FD1CE2E93000A7C7FE /* LaunchScreen.storyboard in Resources */,
+				6DBFA7FA1CE2E93000A7C7FE /* Assets.xcassets in Resources */,
+				6DBFA7F81CE2E93000A7C7FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBFA8011CE2E93000A7C7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBFA80C1CE2E93000A7C7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBFA7EB1CE2E93000A7C7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBFA7F51CE2E93000A7C7FE /* RecordSoundsViewController.swift in Sources */,
+				6DBFA8211CE507C000A7C7FE /* PlaySoundsViewController.swift in Sources */,
+				6DBFA7F31CE2E93000A7C7FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBFA7FF1CE2E93000A7C7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBFA8081CE2E93000A7C7FE /* PitchitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBFA80A1CE2E93000A7C7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBFA8131CE2E93000A7C7FE /* PitchitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DBFA8051CE2E93000A7C7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBFA7EE1CE2E93000A7C7FE /* Pitchit */;
+			targetProxy = 6DBFA8041CE2E93000A7C7FE /* PBXContainerItemProxy */;
+		};
+		6DBFA8101CE2E93000A7C7FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBFA7EE1CE2E93000A7C7FE /* Pitchit */;
+			targetProxy = 6DBFA80F1CE2E93000A7C7FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DBFA7F61CE2E93000A7C7FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBFA7F71CE2E93000A7C7FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DBFA7FB1CE2E93000A7C7FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBFA7FC1CE2E93000A7C7FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBFA8151CE2E93000A7C7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DBFA8161CE2E93000A7C7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DBFA8181CE2E93000A7C7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pitchit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mingyan-Feng.Pitchit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DBFA8191CE2E93000A7C7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pitchit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mingyan-Feng.Pitchit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DBFA81B1CE2E93000A7C7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PitchitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mingyan-Feng.PitchitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitchit.app/Pitchit";
+			};
+			name = Debug;
+		};
+		6DBFA81C1CE2E93000A7C7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PitchitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mingyan-Feng.PitchitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitchit.app/Pitchit";
+			};
+			name = Release;
+		};
+		6DBFA81E1CE2E93000A7C7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PitchitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mingyan-Feng.PitchitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pitchit;
+			};
+			name = Debug;
+		};
+		6DBFA81F1CE2E93000A7C7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PitchitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mingyan-Feng.PitchitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pitchit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBFA7EA1CE2E93000A7C7FE /* Build configuration list for PBXProject "Pitchit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBFA8151CE2E93000A7C7FE /* Debug */,
+				6DBFA8161CE2E93000A7C7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBFA8171CE2E93000A7C7FE /* Build configuration list for PBXNativeTarget "Pitchit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBFA8181CE2E93000A7C7FE /* Debug */,
+				6DBFA8191CE2E93000A7C7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBFA81A1CE2E93000A7C7FE /* Build configuration list for PBXNativeTarget "PitchitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBFA81B1CE2E93000A7C7FE /* Debug */,
+				6DBFA81C1CE2E93000A7C7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBFA81D1CE2E93000A7C7FE /* Build configuration list for PBXNativeTarget "PitchitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBFA81E1CE2E93000A7C7FE /* Debug */,
+				6DBFA81F1CE2E93000A7C7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBFA7E71CE2E93000A7C7FE /* Project object */;
+}
